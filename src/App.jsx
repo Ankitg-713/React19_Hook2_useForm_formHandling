@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <div className="w-full h-screen bg-zinc-200 flex justify-center items-center">
+    <div className="w-full h-screen bg-zinc-300 flex justify-center items-center">
       <div className="container mx-auto">
         <Cards handleRemove={handleRemove}  users={users} />
         <Form handleFormSubmitData={handleFormSubmitData} />
